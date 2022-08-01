@@ -1,0 +1,50 @@
+#bannerType {
+    height: 300px;
+}
+.banner__wrap {
+    background-image: url(../images/banner02.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/* bnner_inner */
+.banner__inner {
+    text-align: left;
+    color: #000;
+    position: relative;
+    width: 1160px;
+    margin: 0px auto;
+}
+/* banner_title */
+.banner__title {
+    font-size: 50px;
+    font-weight: 800;
+    margin-bottom: 20px;
+    text-align: left;
+}
+/* banner_desc */
+.banner__desc {
+    font-size: 24px;
+    line-height: 1.5;
+    font-weight: 300;
+    margin-bottom: 70px;
+}
+.banner__desc a {
+    display: block;
+    font-size: 16px;
+    line-height: 3;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+    margin-top: 50px;
+    width: 200px;
+    text-align: center;
+    background-color: #f2d096;
+    transition: 0.5s;
+}
+.banner__desc a:hover {
+    background-color: white;
+    color: #f2d096;
+    border: 1px solid #f2d096;
+    transition: 0.5s;
+}
